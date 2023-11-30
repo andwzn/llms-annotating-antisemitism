@@ -8,15 +8,16 @@ The basis for annotation is a detailed guideline built upon the definition provi
 
 ## Dataset:
 
-The dataset consists of a labeled set of 6,941 English tweets covering a range of topics where mentions of Jews, Israel, and antisemitic sentiments are expected (Jikeli 2023). The tweets were collected from January 2019 to December 2021 using representative samples with relevant keywords. The dataset also serves as an example for the annotation task and can be accessed here: https://doi.org/10.5281/zenodo.7932888.
+The dataset consists of a labeled set of 6,941 English tweets covering a range of topics where mentions of Jews, Israel, and antisemitic sentiments are expected (Jikeli 2023). The tweets were collected from January 2019 to December 2021 using representative samples with relevant keywords. The dataset also serves as an example for the annotation task and can be accessed here: https://doi.org/10.5281/zenodo.7932888. 
+It was  published under the terms of the "Creative Commons Attribution 4.0 International" licence.
 
 ## LLM/Interface:
 
-To conduct the annotation and compare the results of the LLM with those of human annotators, I propose using a chat-based interface due to the quantity of tweets to annotate. Instead, the GPT-API or a locally running LLama could be employed.
+To conduct the annotation and compare the results of the LLM with those of human annotators, I propose using a chat-based interface due to the quantity of tweets to annotate. Instead, I'll use a locally deployed LLama.
 
 ## Experiment Design:
 
-The experiment will utilize the already annotated data as a basis to compare the results of the LLM with those of human annotators. Their agreement will be measured using a Confusion Matrix. It is crucial to emphasize that success in this context only reflects agreement with human annotators and does not necessarily indicate the actual identification of antisemitic statements.
+The experiment will utilize the already annotated data as a basis to compare the results of the LLM with those of human annotators. Their agreement will be evaluated using a Confusion Matrix. It is crucial to emphasize that success in this context only reflects agreement with human annotators and does not necessarily indicate the actual identification of antisemitic statements.
 If necessary, manually testing particularly challenging examples is an option. Additionally, there is an opportunity to measure the influence of methods such as "Few Shot Prompting" on agreement.
 
 ## Literature
