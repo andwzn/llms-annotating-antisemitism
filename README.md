@@ -8,7 +8,7 @@ The basis for annotation is a detailed guideline built upon the definition provi
 
 ## Dataset:
 
-The dataset consists of a labeled set of 6,941 English tweets covering a range of topics where mentions of Jews, Israel, and antisemitic sentiments are expected (Jikeli 2023). The tweets were collected from January 2019 to December 2021 using representative samples with relevant keywords. The dataset serves as an example for the annotation task and can be accessed here: https://doi.org/10.5281/zenodo.7932888.
+The dataset consists of a labeled set of 6,941 English tweets covering a range of topics where mentions of Jews, Israel, and antisemitic sentiments are expected (Jikeli 2023). The tweets were collected from January 2019 to December 2021 using representative samples with relevant keywords. The dataset also serves as an example for the annotation task and can be accessed here: https://doi.org/10.5281/zenodo.7932888.
 
 ## LLM/Interface:
 
