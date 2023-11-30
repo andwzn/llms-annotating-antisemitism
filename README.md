@@ -13,8 +13,9 @@ It was  published under the terms of the "Creative Commons Attribution 4.0 Inter
 
 ## LLM/Interface:
 
-To conduct the annotation and compare the results of the LLM with those of human annotators, I propose using a chat-based interface due to the quantity of tweets to annotate. Instead, I'll use a locally deployed LLama.
-To circumvent content filters and use the model to annotate potentialle offensive texts, I will use a Fine-tuned Llama-2 7B with an uncensored/unfiltered Wizard-Vicuna conversation dataset, which can be found here: https://huggingface.co/georgesung/llama2_7b_chat_uncensored.
+Due to the quantity of tweets to annotate, I won't be using a chat-based interface. Instead, I'll use a locally deployed model. To circumvent content filters and use the model to annotate potentially offensive texts, I will use a Fine-tuned Llama-2 7B with an uncensored/unfiltered Wizard-Vicuna conversation dataset, which can be found here: https://huggingface.co/georgesung/llama2_7b_chat_uncensored.
+
+A great blogpost on the uncensoring process can be found here: https://erichartford.com/uncensored-models
 
 ## Experiment Design:
 
