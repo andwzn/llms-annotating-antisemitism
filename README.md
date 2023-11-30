@@ -20,6 +20,8 @@ To conduct the annotation and compare the results of the LLM with those of human
 The experiment will utilize the already annotated data as a basis to compare the results of the LLM with those of human annotators. Their agreement will be evaluated using a Confusion Matrix. It is crucial to emphasize that success in this context only reflects agreement with human annotators and does not necessarily indicate the actual identification of antisemitic statements.
 If necessary, manually testing particularly challenging examples is an option. Additionally, there is an opportunity to measure the influence of methods such as "Few Shot Prompting" on agreement.
 
+The code of my experiment and all related data-collection and data-cleaning tasks will be provided in a jupyter notebook.
+
 ## Literature
 
 Gessler, Philipp (2006). „Sekundärer Antisemitismus“. bpb.de, 21. https://www.bpb.de/themen/antisemitismus/dossier-antisemitismus/37962/sekundaerer-antisemitismus/.
