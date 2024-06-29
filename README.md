@@ -13,13 +13,13 @@ It was  published under the terms of the "Creative Commons Attribution 4.0 Inter
 
 ## LLM/Interface:
 
-Due to the quantity of tweets to annotate, I won't be using a chat-based interface. Instead, I'll use a locally deployed model. To circumvent content filters and use the model to annotate potentially offensive texts, I will use a Fine-tuned Llama-2 7B with an uncensored/unfiltered Wizard-Vicuna conversation dataset, which can be found here: https://huggingface.co/georgesung/llama2_7b_chat_uncensored.
+Due to the volume of tweets to annotate, I won't be using a chat-based interface or a paid API. Instead, I'll use a locally deployed model. To circumvent content filters and use the model to annotate potentially offensive texts, I will resort to so called "uncensored models", for example a Fine-tuned Llama-2 7B with an uncensored/unfiltered Wizard-Vicuna conversation dataset, which can be found here: https://huggingface.co/georgesung/llama2_7b_chat_uncensored.
 
 A great blogpost on the uncensoring process can be found here: https://erichartford.com/uncensored-models
 
 ## Experiment Design:
 
-The experiment will utilize the already annotated data as a basis to compare the results of the LLM with those of human annotators. Their agreement will be evaluated using a Confusion Matrix. It is crucial to emphasize that success in this context only reflects agreement with human annotators and does not necessarily indicate the actual identification of antisemitic statements.
+The experiment will utilize the already annotated data as a baseline to compare the results of the LLM with those of human annotators. Their agreement will be evaluated using a Confusion Matrix. It is crucial to emphasize that success in this context only reflects agreement with human annotators and does not necessarily indicate the actual identification of antisemitic statements.
 If necessary, manually testing particularly challenging examples is an option. Additionally, there is an opportunity to measure the influence of methods such as "Few Shot Prompting" on agreement.
 
 The code of my experiment and all related data-collection and data-cleaning tasks will be provided in a jupyter notebook.
